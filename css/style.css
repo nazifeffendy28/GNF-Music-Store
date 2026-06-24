@@ -1,0 +1,11 @@
+/* style.css — sedikit penyesuaian saja, sisanya pakai Bootstrap default */
+
+.card-img-top {
+  background-color: #f1f1f1;
+}
+
+/* tampilan saat dicetak (struk) */
+@media print {
+  .no-print { display: none !important; }
+  nav, footer { display: none !important; }
+}
